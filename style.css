@@ -1,12 +1,16 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px auto;
+    Padding: 15px;
+    color: #F9FAF8;
+    max-width: 1200px;
+    background-color: #e2e3e3;
 }
 
+/* Header Section */
 #Header{
     background-color: #1F2937;
     width: 100%;
-    padding: 40px 20px;
+    padding: 20px 20px;
     box-sizing: border-box;
 }
 
@@ -36,7 +40,7 @@ body {
     padding: 10px 15px;
     background-color: #3882F6;
     border-radius: 10px;
-    box-shadow: 5px 5px 4px #1c1a1a;
+    box-shadow: 0px 5px 0px #1c1a1a;
 }
 
 
@@ -47,4 +51,42 @@ body {
     justify-content:end;
     color:#E5E7EB;
 
+}
+
+.headerLinks a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.headerLinks a:hover {
+    color: #F9FAF8;
+}
+
+.headerLogo {
+    Float:right;
+    margin-top: 5px;
+}
+
+.headerLogo img{
+    height: 250px;
+    width:  auto;
+}
+
+
+/* Content Section */
+#contentSection{
+    padding: 20px 20px;
+    background-color: #F9FAF8;
+    color:#1c1a1a;
+}
+
+.navHeader{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.monthly img{
+    height: 250px; 
+    width: auto;
 }
