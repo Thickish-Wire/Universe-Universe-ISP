@@ -65,7 +65,7 @@ body {
 
 .headerLogo {
     Float:right;
-    margin-top: 5px;
+    margin-top: 60px;
 }
 
 .headerLogo img{
@@ -156,6 +156,28 @@ body {
     float: right;
     color: #F9FAF8;
     
+}
+
+/* Contact Section */
+#contactSection {
+    background-color: #F9FAF8;
+    color: #1c1a1a;
+    padding: 20px 20px;
+    margin: 50px 0px 50px 0px;
+
+}
+
+.contactParagraph, .contactList {
+    font-size: 20px;
+}
+
+.contactList a {
+    color: #1c1a1a;
+    text-decoration: none;
+}
+
+.contactList a:hover {
+    text-decoration: underline;
 }
 
 /* footer */
